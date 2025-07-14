@@ -15,7 +15,7 @@ if (!$conn) {
 }
 
 // Cambia 'tu_tabla' por tu tabla real
-$tabla = "tu_tabla";  // ← REEMPLAZA esto
+$tabla = "sucursal1";  // ← REEMPLAZA esto
 
 $result = pg_query($conn, "SELECT * FROM $tabla LIMIT 20");
 
